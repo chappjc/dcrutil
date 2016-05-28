@@ -6,8 +6,8 @@
 package dcrutil_test
 
 import (
-	"reflect"
 	"math"
+	"reflect"
 	"sort"
 	"testing"
 
@@ -329,8 +329,8 @@ func TestAmountSorter(t *testing.T) {
 		},
 		{
 			name: "Sort 2-element slice of Amounts",
-			as:   []Amount{7,5},
-			want: []Amount{5,7},
+			as:   []Amount{7, 5},
+			want: []Amount{5, 7},
 		},
 		{
 			name: "Sort 6-element slice of Amounts",
